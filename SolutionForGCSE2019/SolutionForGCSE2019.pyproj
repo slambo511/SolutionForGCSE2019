@@ -21,7 +21,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CardGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DiceGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MusicQuiz.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SolutionForGCSE2019.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CardGameInstructions.txt" />
+    <Content Include="DiceGameInstructions.txt" />
+    <Content Include="MusicQuizInstructions.tx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
